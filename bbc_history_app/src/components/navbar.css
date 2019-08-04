@@ -1,4 +1,4 @@
-li {
+.nav-items li {
   display: inline-block;
   padding: 2.5em;
   float: right;
@@ -7,17 +7,16 @@ li {
   /* font-family:  */
 }
 
-li a:hover {
+.backtotop li a:hover, .nav-items li a:hover {
     background-color: #555;
     color: white;
 }
 
-li a{
+.nav-items li a{
   color: white;
   text-decoration: none;
 }
 
-
-li a:active {
+.nav-items li a:active {
     color: #CC3D61;
 }

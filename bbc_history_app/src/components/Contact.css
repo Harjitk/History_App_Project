@@ -44,3 +44,75 @@ table, th, td {
   width: 400px;
   height: auto;
 }
+
+
+
+/* this is where form css starts */
+#register {
+  max-width: 100%;
+  padding: 1.6em;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+#register .submit {
+  text-align: right;
+  margin-top: 0.5em;
+}
+
+#register input {
+  border: 1px solid #ccc;
+  padding: 0.25em;
+  
+}
+
+#register label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}​
+
+a:focus, input:focus, button:focus {
+  outline: 2px solid #1500ff;
+}
+
+input[aria-invalid="true"] {
+  background: #ffd5d5;
+}
+
+ [type="button"] {
+  background: #215990;
+  color: #fff;
+  padding: 0.25em 0.5em;
+  border: 0;
+}
+
+#register .hint {
+  background: #c83737;
+  padding: 0.25em;
+  color: #fff;
+}
+
+[aria-invalid="true"] + .hint {
+  display: block;
+}
+
+ div + label {
+  margin-top: 1em;
+}
+
+#register #message {
+  margin-top: 1em;
+}
+
+#register #message p {
+  margin-top: 0.5em;
+  background: #ffd5d5;
+  padding: 0.5em;
+  border: 2px solid #c83737;
+  margin: 0;
+  height: 100%;
+  letter-spacing: 0px;
+}

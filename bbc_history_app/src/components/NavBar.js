@@ -4,20 +4,22 @@ import "./navbar.css"
 
 
 const NavBar = () => (
-  <ul>
+  
+  
+  <ol className='nav-items'>
     <li>
-      <Link to="/contact">Contact</Link>
+      <Link to="/contact">Register</Link>
 
     </li>
     <li>
-      <Link to="/about">About</Link>
+            <Link to="/about">About</Link>
     </li>
     <li>
-
       <Link to="/">Home</Link>
     </li>
 
-  </ul>
+  </ol>
+
 )
 
 

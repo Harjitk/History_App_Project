@@ -19,7 +19,9 @@ const VList = (props) =>  {
     });
 
     return(
-      <div>
+
+
+      <div id="maincont">
         <VerticalTimeline className='verticalTimeline'>
           {allEvents}
         </VerticalTimeline>
@@ -30,7 +32,12 @@ const VList = (props) =>  {
 
 const VLElement = (props) =>  {
     return(
+
+      
+
+
       <div>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date= {props.VLElementData["year"]}
